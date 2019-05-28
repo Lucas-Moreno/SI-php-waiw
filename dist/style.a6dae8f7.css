@@ -2,6 +2,8 @@ body {
   display: flex; }
 
 nav {
+  z-index: 11;
+  position: fixed;
   background-color: black;
   color: white;
   padding-left: 50px;
@@ -36,6 +38,10 @@ nav {
   padding-bottom: 1%;
   width: 90%; }
 
+nav ul {
+  overflow: scroll;
+  height: 80vh; }
+
 nav ul li {
   padding-top: 5%;
   padding-bottom: 5%;
@@ -52,11 +58,20 @@ nav ul li:last-child {
   padding-bottom: 30%; }
 
 aside {
+  background-color: #fff;
+  z-index: 10;
+  position: fixed;
+  width: 75vw;
+  margin-left: 26vw;
   display: flex;
   align-items: center;
   height: 63px;
   justify-content: space-between;
-  padding-right: 6%; }
+  padding-right: 6%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1); }
+
+.logo {
+  margin-right: 5%; }
 
 .container {
   display: flex;
@@ -68,22 +83,9 @@ aside {
 .container:first-child {
   margin-left: 2%; }
 
-.boite {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: 'Montserrat', regular;
-  font-size: 14px;
-  border: 2px solid #E5E5E5;
-  border-radius: 10px;
-  width: 30%;
-  padding: 0px 5px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1); }
-  .boite p {
-    color: rgba(0, 0, 0, 0.42); }
-
-.logo {
-  margin-left: 10%; }
+input {
+  width: 200px;
+  padding: 2px 2px 2px; }
 
 article {
   width: 75vw; }
@@ -94,5 +96,23 @@ article {
     width: 100%; }
 
 .movies {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 15%;
+  margin-left: 26vw;
+  width: 75vw; }
+
+.movie {
+  background-color: blue;
+  width: 21vw;
+  height: 46vh; }
+
+.top-movies {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10%; }
+
+.low-movies {
   display: flex;
   justify-content: space-around; }
