@@ -50,8 +50,7 @@ CREATE TABLE COMMENT(
         comment_post        Int NOT NULL ,
         comment_member      Int NOT NULL ,
         comment_content     Varchar (255) NOT NULL ,
-	,PRIMARY KEY (comment_id)
-
+	PRIMARY KEY (comment_id)
 	,CONSTRAINT COMMENT_POST_FK FOREIGN KEY (comment_post) REFERENCES POST(post_id) ON DELETE CASCADE
 	,CONSTRAINT COMMENT_MEMBER_FK FOREIGN KEY (comment_member) REFERENCES MEMBER(member_id) ON DELETE CASCADE
 )ENGINE=InnoDB;
@@ -72,14 +71,14 @@ CREATE TABLE GENRE(
 # Table: LIKE
 #------------------------------------------------------------
 
-CREATE TABLE LIKE(
+CREATE TABLE LIKED(
         member_id      Int NOT NULL ,
         post_id        Int NOT NULL ,
         sentiment      Tinyint NOT NULL
-	,CONSTRAINT LIKE_PK PRIMARY KEY (post_id,member_id)
+	,CONSTRAINT LIKED_PK PRIMARY KEY (post_id,member_id)
 
-	,CONSTRAINT LIKE_POST_FK FOREIGN KEY (post_id) REFERENCES POST(post_id)
-	,CONSTRAINT LIKE_MEMBER_FK FOREIGN KEY (member_id) REFERENCES MEMBER(member_id)
+	,CONSTRAINT LIKED_POST_FK FOREIGN KEY (post_id) REFERENCES POST(post_id)
+	,CONSTRAINT LIKED_MEMBER_FK FOREIGN KEY (member_id) REFERENCES MEMBER(member_id)
 )ENGINE=InnoDB;
 
 
