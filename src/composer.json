@@ -1,0 +1,16 @@
+{
+  "name": "fionahetic/si-php-waiw",
+  "authors": [
+    {
+      "name": "ArcanumLibella",
+      "email": "fiona.roux@hetic.net"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "Class/"
+    }
+  }
+}
