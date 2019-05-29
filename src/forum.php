@@ -7,7 +7,7 @@
     <script defer src="index.js"></script>
     <link rel="stylesheet" href="css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/forum.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -50,15 +50,14 @@
         <aside>
             <div class="container">
                 <img src="../src/img/right.png" alt="flèche bas">
-                <p>Toute categorie</p>
-            </div>
-            <div class="container">
-                <img src="../src/img/right.png" alt="flèche bas">
                 <p>Date de sortie</p>
             </div>
             <div class="boite">
                 <input type="text" id="search" name="search" placeholder="Search">
                 <button>rechercher</button>
+            </div>
+            <div class="account">
+                <p>Mon compte</p>
             </div>
             <div class="logo">
                 <img src="../src/img/Group 2.1.png" alt="logo">
@@ -77,12 +76,16 @@
                             sa traque de La Bête, surnom donné à Kevin Crumb depuis 
                            qu’on le sait capable d’endosser 23 personnalités différentes....</p>
                         <div class="like">
+                            <div class="like2">
                             <img src="../src/img/in-love.png" alt="like">
-                            <span>638</span>
-                            <img src="../src/img/tear.png" alt="dislike">
-                            <span>127</span>
-                            <img src="../src/img/conversation.png" alt="commentaire">
-                            <span>23</span>
+                                <span>638</span>
+                                <img src="../src/img/tear.png" alt="dislike">
+                                <span>127</span>
+                            </div>
+                            <div class="comments">
+                                <img src="../src/img/conversation.png" alt="commentaire">
+                                <span>23</span>
+                            </div>
                         </div>
                     </div>
                     <div class="movie">
@@ -95,12 +98,16 @@
                             il est à la croisée des chemins. Et l'enjeu du combat est d'autant plus élevé que son 
                             rival est lié au passé de sa famille...</p>
                         <div class="like">
-                            <img src="../src/img/in-love.png" alt="like">
-                            <span>638</span>
-                            <img src="../src/img/tear.png" alt="dislike">
-                            <span>127</span>
-                            <img src="../src/img/conversation.png" alt="commentaire">
-                            <span>23</span>
+                            <div class="like2">
+                                <img src="../src/img/in-love.png" alt="like">
+                                <span>638</span>
+                                <img src="../src/img/tear.png" alt="dislike">
+                                <span>127</span>
+                            </div>
+                            <div class="comments">
+                                <img src="../src/img/conversation.png" alt="commentaire">
+                                <span>23</span>
+                            </div>
                         </div>
                     </div>
                     <div class="movie">
@@ -112,12 +119,16 @@
                             le ramène chez lui. Dans les dossiers, il déniche d'inquiétants 
                             fichiers cachés qu'il s'empresse de montrer à ses amis sur Skype...</p>
                         <div class="like">
-                            <img src="../src/img/in-love.png" alt="like">
-                            <span>638</span>
-                            <img src="../src/img/tear.png" alt="dislike">
-                            <span>127</span>
-                            <img src="../src/img/conversation.png" alt="commentaire">
-                            <span>23</span>
+                            <div class="like2">
+                                <img src="../src/img/in-love.png" alt="like">
+                                <span>638</span>
+                                <img src="../src/img/tear.png" alt="dislike">
+                                <span>127</span>
+                            </div>
+                            <div class="comments">
+                                <img src="../src/img/conversation.png" alt="commentaire">
+                                <span>23</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -132,12 +143,16 @@
                             lors d’un week-end sur leur domaine dans le nord de l’État. Chris commence 
                             par penser que l’atmosphère tendue est liée à leur différence...</p>
                         <div class="like">
-                            <img src="../src/img/in-love.png" alt="like">
-                            <span>638</span>
-                            <img src="../src/img/tear.png" alt="dislike">
-                            <span>127</span>
-                            <img src="../src/img/conversation.png" alt="commentaire">
-                            <span>23</span>
+                            <div class="like2">
+                                <img src="../src/img/in-love.png" alt="like">
+                                <span>638</span>
+                                <img src="../src/img/tear.png" alt="dislike">
+                                <span>127</span>
+                            </div>
+                            <div class="comments">
+                                <img src="../src/img/conversation.png" alt="commentaire">
+                                <span>23</span>
+                            </div>
                         </div>
                     </div>
                     <div class="movie">
@@ -150,12 +165,16 @@
                             Hantée par des cauchemars récurrents, et décidée à retrouver une vie de couple équilibrée, 
                             elle fait le choix, avec son compagnon John, d'adopter un enfant...</p>
                         <div class="like">
-                            <img src="../src/img/in-love.png" alt="like">
-                            <span>638</span>
-                            <img src="../src/img/tear.png" alt="dislike">
-                            <span>127</span>
-                            <img src="../src/img/conversation.png" alt="commentaire">
-                            <span>23</span>
+                            <div class="like2">
+                                <img src="../src/img/in-love.png" alt="like">
+                                <span>638</span>
+                                <img src="../src/img/tear.png" alt="dislike">
+                                <span>127</span>
+                            </div>
+                            <div class="comments">
+                                <img src="../src/img/conversation.png" alt="commentaire">
+                                <span>23</span>
+                            </div>
                         </div>
                     </div>
                     <div class="movie">
@@ -167,12 +186,16 @@
                             les plus puissantes de l’univers lorsque la Terre se révèle l’enjeu d’une guerre galactique 
                             entre deux races extraterrestres.</p>
                         <div class="like">
-                            <img src="../src/img/in-love.png" alt="like">
-                            <span>638</span>
-                            <img src="../src/img/tear.png" alt="dislike">
-                            <span>127</span>
-                            <img src="../src/img/conversation.png" alt="commentaire">
-                            <span>23</span>
+                            <div class="like2">
+                                <img src="../src/img/in-love.png" alt="like">
+                                <span>638</span>
+                                <img src="../src/img/tear.png" alt="dislike">
+                                <span>127</span>
+                            </div>
+                            <div class="comments">
+                                <img src="../src/img/conversation.png" alt="commentaire">
+                                <span>23</span>
+                            </div>
                         </div>
                     </div>
                 </div>
