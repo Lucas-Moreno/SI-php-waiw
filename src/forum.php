@@ -7,7 +7,7 @@
     <script defer src="index.js"></script>
     <link rel="stylesheet" href="css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forum.css">
     <title>Document</title>
 </head>
 <body>
