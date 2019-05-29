@@ -25,7 +25,7 @@
                     <img src="../src/img/Rectangle 2.png" alt="ligne">
                 </div>
                 <ul>
-                    <li><img src="../src/img/Union.png" alt="plus">Créer un nouveau post</li>
+                    <a href="post_form.php"><li><img src="../src/img/Union.png" alt="plus">Créer un nouveau post</li></a>
                     <li>Thriller / Suspense / Polar</li>
                     <li>Epouvante / horreur</li>
                     <li>Animation / Manga</li>
