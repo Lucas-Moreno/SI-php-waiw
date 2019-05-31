@@ -1,6 +1,6 @@
 <section class="form_post">
   <h2>Créer un post </h2>
-  <form action="index.php" method="post">
+  <form action="forum.php" method="post">
     
   
         <label for="title">Titre</label>

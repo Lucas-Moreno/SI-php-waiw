@@ -9,7 +9,7 @@
 </header>
   <?php
   include_once('assets/inc/aside.php');
-  include_once('assets/inc/form_post.php');
+  include_once('assets/config/form_post.php');
 ?>
 
 </body>

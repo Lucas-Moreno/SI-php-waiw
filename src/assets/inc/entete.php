@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../src/css/form_post.css">
+  <link rel="stylesheet" href="../src/css/style.css">
   <link rel="stylesheet" href="../src/css/forum.css">
   <title>WAIW</title>
 </head>

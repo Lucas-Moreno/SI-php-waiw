@@ -25,7 +25,8 @@
                     <img src="../src/img/Rectangle 2.png" alt="ligne">
                 </div>
                 <ul>
-                    <a href="post_form.php"><li><img src="../src/img/Union.png" alt="plus">Créer un nouveau post</li></a>
+                    <a href="post_form.php"><li class="svg_add"><svg class="add" viewBox="0 0 42 42"><g><polygon points="42,20 22,20 22,0 20,0 20,20 0,20 0,22 20,22 20,42 22,42 22,22 42,22 " data-original="#000000" class="active-path" data-old_color="#FBFAFA"/></g></svg>
+Créer un nouveau post</li></a>
                     <li>Thriller / Suspense / Polar</li>
                     <li>Epouvante / horreur</li>
                     <li>Animation / Manga</li>
@@ -195,6 +196,8 @@
                             <div class="comments">
                                 <img src="../src/img/conversation.png" alt="commentaire">
                                 <span>23</span>
+
+                                
                             </div>
                         </div>
                     </div>

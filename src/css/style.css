@@ -103,3 +103,17 @@ section input[type="submit"]{
   width: 40%;
   margin:auto;
 }
+.add{
+  fill:white;
+  width: 15px;
+}
+.svg{
+  border:solid;
+  border-radius: 80px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  cursor: pointer;
+}

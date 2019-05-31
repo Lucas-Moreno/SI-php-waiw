@@ -73,10 +73,8 @@ CREATE TABLE POST
                         comment_post Int NOT NULL ,
                         comment_member Int NOT NULL ,
                         comment_content Varchar (255) NOT NULL ,
-                        PRIMARY KEY (comment_id)
-	,
-                        CONSTRAINT COMMENT_POST_FK FOREIGN KEY (comment_post) REFERENCES POST(post_id) ON DELETE CASCADE
-	,
+                        PRIMARY KEY (comment_id),
+                        CONSTRAINT COMMENT_POST_FK FOREIGN KEY (comment_post) REFERENCES POST(post_id) ON DELETE CASCADE,
                         CONSTRAINT COMMENT_MEMBER_FK FOREIGN KEY (comment_member) REFERENCES MEMBER(member_id) ON DELETE CASCADE
                 )
                 ENGINE=InnoDB;
@@ -86,7 +84,6 @@ CREATE TABLE POST
 #
                 Table:
                 GENRE
-#------------------------------------------------------------
 
                 CREATE TABLE GENRE
                 (

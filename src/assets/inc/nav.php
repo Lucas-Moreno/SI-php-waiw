@@ -11,7 +11,8 @@
                     <img src="img/Rectangle 2.png" alt="ligne">
                 </div>
                 <ul>
-                    <li><img src="img/Union.png" alt="plus">Créer un nouveau post</li>
+                <li class="svg_add"><svg class="add" viewBox="0 0 42 42"><g><polygon points="42,20 22,20 22,0 20,0 20,20 0,20 0,22 20,22 20,42 22,42 22,22 42,22 " data-original="#000000" class="active-path" data-old_color="#FBFAFA"/></g></svg>
+Créer un nouveau post</li>
                     <li>Thriller / Suspense / Polar</li>
                     <li>Epouvante / horreur</li>
                     <li>Animation / Manga</li>
